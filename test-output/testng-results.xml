@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="11" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-19T19:58:05 IST" name="Loan Department" finished-at="2021-02-19T19:58:05 IST" duration-ms="145">
+    <groups>
+      <group name="Smoke">
+        <method signature="ex2.plan()[pri:0, instance:testNG.ex2@fa36558]" name="plan" class="testNG.ex2"/>
+        <method signature="ex3.mobileloginCarloan()[pri:0, instance:testNG.ex3@5fa07e12]" name="mobileloginCarloan" class="testNG.ex3"/>
+        <method signature="ex4.mobileloginHomeloan()[pri:0, instance:testNG.ex4@4d910fd6]" name="mobileloginHomeloan" class="testNG.ex4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2021-02-19T19:58:05 IST" name="Home Loan" finished-at="2021-02-19T19:58:05 IST" duration-ms="93">
+      <class name="testNG.ex1">
+        <test-method is-config="true" signature="afsuite()[pri:0, instance:testNG.ex1@fd07cbb]" started-at="2021-02-19T19:58:05 IST" name="afsuite" finished-at="2021-02-19T19:58:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afsuite -->
+      </class> <!-- testNG.ex1 -->
+      <class name="testNG.ex4">
+        <test-method signature="apiloginHomeloan()[pri:0, instance:testNG.ex4@4d910fd6]" started-at="2021-02-19T19:58:05 IST" name="apiloginHomeloan" finished-at="2021-02-19T19:58:05 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiloginHomeloan -->
+        <test-method signature="mobileloginHomeloan()[pri:0, instance:testNG.ex4@4d910fd6]" started-at="2021-02-19T19:58:05 IST" name="mobileloginHomeloan" finished-at="2021-02-19T19:58:05 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileloginHomeloan -->
+        <test-method signature="webloginHomeloan()[pri:0, instance:testNG.ex4@4d910fd6]" started-at="2021-02-19T19:58:05 IST" name="webloginHomeloan" finished-at="2021-02-19T19:58:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webloginHomeloan -->
+      </class> <!-- testNG.ex4 -->
+      <class name="testNG.ex3">
+        <test-method is-config="true" signature="bfsuite()[pri:0, instance:testNG.ex3@5fa07e12]" started-at="2021-02-19T19:58:05 IST" name="bfsuite" finished-at="2021-02-19T19:58:05 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfsuite -->
+      </class> <!-- testNG.ex3 -->
+    </test> <!-- Home Loan -->
+    <test started-at="2021-02-19T19:58:05 IST" name="Personal Loan" finished-at="2021-02-19T19:58:05 IST" duration-ms="65">
+      <class name="testNG.ex1">
+        <test-method is-config="true" signature="lastexecution()[pri:0, instance:testNG.ex1@fd07cbb]" started-at="2021-02-19T19:58:05 IST" name="lastexecution" finished-at="2021-02-19T19:58:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastexecution -->
+      </class> <!-- testNG.ex1 -->
+      <class name="testNG.ex2">
+        <test-method is-config="true" signature="prerequisite()[pri:0, instance:testNG.ex2@fa36558]" started-at="2021-02-19T19:58:05 IST" name="prerequisite" finished-at="2021-02-19T19:58:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisite -->
+        <test-method signature="plan()[pri:0, instance:testNG.ex2@fa36558]" started-at="2021-02-19T19:58:05 IST" name="plan" finished-at="2021-02-19T19:58:05 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plan -->
+      </class> <!-- testNG.ex2 -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2021-02-19T19:58:05 IST" name="Car Loan" finished-at="2021-02-19T19:58:05 IST" duration-ms="145">
+      <class name="testNG.ex3">
+        <test-method is-config="true" signature="bfc()[pri:0, instance:testNG.ex3@5fa07e12]" started-at="2021-02-19T19:58:05 IST" name="bfc" finished-at="2021-02-19T19:58:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfc -->
+        <test-method is-config="true" signature="bfm()[pri:0, instance:testNG.ex3@5fa07e12]" started-at="2021-02-19T19:58:05 IST" name="bfm" finished-at="2021-02-19T19:58:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfm -->
+        <test-method signature="mobileloginCarloan()[pri:0, instance:testNG.ex3@5fa07e12]" started-at="2021-02-19T19:58:05 IST" name="mobileloginCarloan" finished-at="2021-02-19T19:58:05 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileloginCarloan -->
+        <test-method is-config="true" signature="afm()[pri:0, instance:testNG.ex3@5fa07e12]" started-at="2021-02-19T19:58:05 IST" name="afm" finished-at="2021-02-19T19:58:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afm -->
+        <test-method is-config="true" signature="bfm()[pri:0, instance:testNG.ex3@5fa07e12]" started-at="2021-02-19T19:58:05 IST" name="bfm" finished-at="2021-02-19T19:58:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfm -->
+        <test-method signature="webloginCarloan(java.lang.String, java.lang.String)[pri:0, instance:testNG.ex3@5fa07e12]" started-at="2021-02-19T19:58:05 IST" name="webloginCarloan" data-provider="getData" finished-at="2021-02-19T19:58:05 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webloginCarloan -->
+        <test-method is-config="true" signature="afm()[pri:0, instance:testNG.ex3@5fa07e12]" started-at="2021-02-19T19:58:05 IST" name="afm" finished-at="2021-02-19T19:58:05 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afm -->
+        <test-method signature="webloginCarloan(java.lang.String, java.lang.String)[pri:0, instance:testNG.ex3@5fa07e12]" started-at="2021-02-19T19:58:05 IST" name="webloginCarloan" data-provider="getData" finished-at="2021-02-19T19:58:05 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webloginCarloan -->
+        <test-method is-config="true" signature="bfm()[pri:0, instance:testNG.ex3@5fa07e12]" started-at="2021-02-19T19:58:05 IST" name="bfm" finished-at="2021-02-19T19:58:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfm -->
+        <test-method is-config="true" signature="afm()[pri:0, instance:testNG.ex3@5fa07e12]" started-at="2021-02-19T19:58:05 IST" name="afm" finished-at="2021-02-19T19:58:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afm -->
+        <test-method is-config="true" signature="bfm()[pri:0, instance:testNG.ex3@5fa07e12]" started-at="2021-02-19T19:58:05 IST" name="bfm" finished-at="2021-02-19T19:58:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfm -->
+        <test-method signature="webloginCarloan(java.lang.String, java.lang.String)[pri:0, instance:testNG.ex3@5fa07e12]" started-at="2021-02-19T19:58:05 IST" name="webloginCarloan" data-provider="getData" finished-at="2021-02-19T19:58:05 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webloginCarloan -->
+        <test-method is-config="true" signature="afm()[pri:0, instance:testNG.ex3@5fa07e12]" started-at="2021-02-19T19:58:05 IST" name="afm" finished-at="2021-02-19T19:58:05 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afm -->
+        <test-method signature="apiloginCarloan()[pri:0, instance:testNG.ex3@5fa07e12]" started-at="2021-02-19T19:58:05 IST" name="apiloginCarloan" finished-at="2021-02-19T19:58:05 IST" depends-on-methods="testNG.ex3.webloginCarloan" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiloginCarloan -->
+        <test-method is-config="true" signature="bfm()[pri:0, instance:testNG.ex3@5fa07e12]" started-at="2021-02-19T19:58:05 IST" name="bfm" finished-at="2021-02-19T19:58:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfm -->
+        <test-method is-config="true" signature="afm()[pri:0, instance:testNG.ex3@5fa07e12]" started-at="2021-02-19T19:58:05 IST" name="afm" finished-at="2021-02-19T19:58:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afm -->
+        <test-method is-config="true" signature="afc()[pri:0, instance:testNG.ex3@5fa07e12]" started-at="2021-02-19T19:58:05 IST" name="afc" finished-at="2021-02-19T19:58:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afc -->
+      </class> <!-- testNG.ex3 -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
